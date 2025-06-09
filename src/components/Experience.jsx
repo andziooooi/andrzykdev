@@ -1,14 +1,14 @@
-export const Experience = () => (
-  <section className="section">
-    <h2>Experience</h2>
-    <h3>SVZ Tomaszów Sp. z o.o. – ICT employee</h3>
-    <p>
-      <i>Aug 2024 – Sep 2024</i>
-    </p>
-    <ul>
-      <li>Managed rollout process and technical support</li>
-      <li>Integrated systems and resolved infrastructure issues</li>
-      <li>Issued and repaired equipment, supported users</li>
-    </ul>
-  </section>
-);
+import { useTranslation } from "react-i18next";
+export const Experience = () => {
+  const { t } = useTranslation("experience");
+  return (
+    <section className="section">
+      <h2>{t("title")}</h2>
+      <h3>{t("company")}</h3>
+      <p>
+        <i>{t("time")}</i>
+      </p>
+      <p>{t("desc")}</p>
+    </section>
+  );
+};

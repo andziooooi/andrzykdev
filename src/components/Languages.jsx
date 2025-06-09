@@ -1,9 +1,15 @@
-export const Languages = () => (
-  <section className="section">
-    <h2>Languages</h2>
-    <ul>
-      <li>Polish – Native</li>
-      <li>English – B2</li>
-    </ul>
-  </section>
-);
+import { useTranslation } from "react-i18next";
+export const Languages = () => {
+  const { t } = useTranslation("languages");
+  var languagelist = t("list", { returnObjects: true });
+  return (
+    <section className="section">
+      <h2>{t("header")}</h2>
+      <ul>
+        {languagelist.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </section>
+  );
+};

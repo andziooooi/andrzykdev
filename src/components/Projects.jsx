@@ -5,8 +5,8 @@ export const Projects = () => {
   const { t } = useTranslation("projects");
 
   return (
-    <section>
-      <h2>Projects</h2>
+    <section className="section">
+      <h2>{t("header")}</h2>
       <ProjectCard
         title="MyFinances"
         desc={t("MyFinances.desc")}

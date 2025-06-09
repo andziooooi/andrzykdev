@@ -3,7 +3,7 @@ import { TechStack } from "./TechStack";
 var link = "https://github.com/andziooooi/";
 export const ProjectCard = (props) => (
   <div>
-    <div>
+    <div className="projectname">
       <strong>
         <a href={link + props.title} target="_blank" rel="noreferrer">
           {props.title}

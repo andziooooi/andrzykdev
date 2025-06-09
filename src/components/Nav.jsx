@@ -1,19 +1,12 @@
-export const Nav = () => {
+export const Nav = (props) => {
   return (
     <nav className="nav">
       <ul>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#project">Projects</a>
-        </li>
+        {props.articles.map((item, index) => (
+          <li key={index}>
+            <a href="#about">{item}</a>
+          </li>
+        ))}
       </ul>
     </nav>
   );

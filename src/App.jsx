@@ -11,8 +11,8 @@ import { About } from "./components/About";
 import { Me } from "./components/Me";
 function App() {
   return (
-    // <LanguageSwitcher />
     <div className="container">
+      <LanguageSwitcher />
       <div className="content">
         <div className="left">
           <Me></Me>
