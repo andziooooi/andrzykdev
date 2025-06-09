@@ -7,8 +7,16 @@ export const Projects = () => {
   return (
     <section>
       <h2>Projects</h2>
-
-      <ProjectCard title={t("myFinances.title")} link={t("myFinances.link")} />
+      <ProjectCard
+        title="MyFinances"
+        desc={t("MyFinances.desc")}
+        tech={["ASP .NET MVC", "EntityFramework", "SQLite"]}
+      />
+      <ProjectCard
+        title="WordZone"
+        desc={t("WordZone.desc")}
+        tech={["WPF", "EntityFramework", "SQLite"]}
+      />
     </section>
   );
 };

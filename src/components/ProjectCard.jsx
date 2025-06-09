@@ -1,19 +1,19 @@
+import { TechStack } from "./TechStack";
+
 var link = "https://github.com/andziooooi/";
-export const ProjectCard = (props) => {
-  return (
+export const ProjectCard = (props) => (
+  <div>
     <div>
-      <div>
-        <strong>
-          <a href={link + props.link}>{props.title}</a>
-        </strong>
-      </div>
-      <div className="desc">
-        <span>{props.desc}</span>
-      </div>
-      <div className="footer">
-        <div className="tech"></div>
-      </div>
+      <strong>
+        <a href={link + props.title}>{props.title}</a>
+      </strong>
     </div>
-  );
-};
+    <div className="desc">
+      <span>{props.desc}</span>
+    </div>
+    {props.tech.map((item, index) => (
+      <TechStack key={index} tech={item} />
+    ))}
+  </div>
+);
 export default ProjectCard;

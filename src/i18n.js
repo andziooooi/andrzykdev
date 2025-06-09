@@ -18,8 +18,8 @@ i18n.use(initReactI18next).init({
       projects: plProjects,
     },
   },
-  lng: "pl",
-  fallbackLng: "en",
+  lng: "en",
+  fallbackLng: "pl",
   ns: ["projects"], // <-- lista namespace'ów
   //defaultNS: "translation",
   interpolation: { escapeValue: false },
