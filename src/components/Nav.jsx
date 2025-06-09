@@ -1,8 +1,6 @@
-import React from "react";
-import "../styles/NavBar.css";
-export const NavBar = () => {
+export const Nav = () => {
   return (
-    <nav className="navbar">
+    <nav className="nav">
       <ul>
         <li>
           <a href="#about">About</a>

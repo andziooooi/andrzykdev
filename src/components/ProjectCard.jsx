@@ -5,7 +5,9 @@ export const ProjectCard = (props) => (
   <div>
     <div>
       <strong>
-        <a href={link + props.title}>{props.title}</a>
+        <a href={link + props.title} target="_blank" rel="noreferrer">
+          {props.title}
+        </a>
       </strong>
     </div>
     <div className="desc">

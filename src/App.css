@@ -6,9 +6,17 @@ body {
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.left,
+.right {
+  width: 50%;
 }
 
 .section {
