@@ -1,4 +1,11 @@
 {
   "desc": "Computer Science Student @ Warsaw University of Life Sciences",
-  "list": ["About", "Projects", "Experience", "skills"]
+  "list": [
+    "About",
+    "Skills",
+    "Experience",
+    "Education",
+    "Projects",
+    "Languages"
+  ]
 }

@@ -4,7 +4,7 @@ export const Nav = (props) => {
       <ul>
         {props.articles.map((item, index) => (
           <li key={index}>
-            <a href="#about">{item}</a>
+            <a href={"#" + item}>{item}</a>
           </li>
         ))}
       </ul>

@@ -1,5 +1,5 @@
 {
-  "header": "Projects",
+  "title": "Projects",
   "WordZone.desc": "A WPF-based desktop application designed to assist users in learning English. It allows users to create custom word packs, study through quizzes or flashcards, and edit existing packs. The application utilizes SQLite and Entity Framework for data management and follows the MVVM design pattern for maintainability.",
   "MyFinances.desc": "MyFinances is a web application that helps users track their income and expenses in an intuitive and organized way. It provides clear financial summaries with dynamic charts,allowing users to analyze their spending patterns over time. The application supports transaction categorization, making it easier to monitor specific areas of spending. Users can review monthly reports, compare income versus expenses, and gain insights into their financial habits"
 }

@@ -14,7 +14,8 @@ function App() {
     <div className="container">
       <LanguageSwitcher />
       <div className="content">
-        <div className="left">
+        <div className="left"></div>
+        <div className="me">
           <Me></Me>
         </div>
         <div className="right">
@@ -24,21 +25,13 @@ function App() {
 
           <Experience></Experience>
 
-          <Projects></Projects>
-
           <Education></Education>
+
+          <Projects></Projects>
 
           <Languages></Languages>
         </div>
       </div>
-
-      <footer className="section footer">
-        <p>
-          I hereby give consent to the processing of my personal data for the
-          purposes necessary for the recruitment process in accordance with
-          GDPR.
-        </p>
-      </footer>
     </div>
   );
 }

@@ -4,11 +4,13 @@ var link = "https://github.com/andziooooi/";
 export const ProjectCard = (props) => (
   <div>
     <div className="projectname">
-      <strong>
-        <a href={link + props.title} target="_blank" rel="noreferrer">
-          {props.title}
-        </a>
-      </strong>
+      <h3>
+        <strong>
+          <a href={link + props.title} target="_blank" rel="noreferrer">
+            {props.title}
+          </a>
+        </strong>
+      </h3>
     </div>
     <div className="desc">
       <span>{props.desc}</span>

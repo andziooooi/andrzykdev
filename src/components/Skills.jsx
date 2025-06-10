@@ -7,12 +7,18 @@ export const Skills = () => {
       <section className="section">
         <h2>Technical Skills</h2>
         <ul>
-          <li>C# / .NET / ASP.NET Core MVC</li>
-          <li>WinForms / WPF / EntityFramework</li>
-          <li>SQL / T-SQL / MySQL / SQLite</li>
-          <li>PHP / Python</li>
+          <li>C# / .NET</li>
+          <li>ASP.NET Core MVC</li>
+          <li>WinForms / WPF</li>
+          <li>EntityFramework</li>
+          <li>SQL / T-SQL </li>
+          <li>MySQL/ MS SQL Server / SQLite</li>
+          <li>PHP</li>
+          <li>Python</li>
           <li>HTML / CSS / JavaScript</li>
-          <li>GIT / Visual Studio</li>
+          <li>React</li>
+          <li>GIT</li>
+          <li>Visual Studio</li>
         </ul>
       </section>
 

@@ -9,8 +9,8 @@ export default function LanguageSwitcher() {
 
   return (
     <div style={{ marginBottom: "20px" }}>
-      <button onClick={() => switchTo("pl")}>🇵🇱 PL</button>
-      <button onClick={() => switchTo("en")}>🇬🇧 EN</button>
+      <button onClick={() => switchTo("pl")}>PL</button>
+      <button onClick={() => switchTo("en")}>ENG</button>
     </div>
   );
 }

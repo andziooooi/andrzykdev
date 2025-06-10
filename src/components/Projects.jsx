@@ -6,7 +6,7 @@ export const Projects = () => {
 
   return (
     <section className="section">
-      <h2>{t("header")}</h2>
+      <h2>{t("title")}</h2>
       <ProjectCard
         title="MyFinances"
         desc={t("MyFinances.desc")}
