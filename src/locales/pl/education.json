@@ -1,7 +1,8 @@
 {
-  "title": "Education",
-  "school": "Warsaw University of Life Sciences",
-  "time": "2022 - present",
-  "major": "jakiś",
-  "desc": "Engineer's degree in Computer Science, specialization in Information Systems Engineering"
+  "title": "Wykształcenie",
+  "school": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
+  "time": "2022 - aktualnie",
+  "major": "Informatyka",
+  "spec": "Inżynieria systemów informacyjnych",
+  "desc": "Jestem studentem trzeciego roku studiów inżynierskich na kierunku Informatyka o specjalizacji Inżynierii systemów informatycznych W ramach której rozwinąłem umiejętności tworzenia i interpretacji dokumentacji biznesowej oraz notacji, takich jak diagramy UML, modele BPMN i inne narzędzia analityczne. Zdobyłem również doświadczenie w projektowaniu i zarządzaniu hurtowniami danych, koncentrując się na ich strukturze, optymalizacji i utrzymaniu środowisk danych wspierających analizy biznesowe i systemy Business Intelligence. Dodatkowo posiadam solidne podstawy programowania i tworzenia aplikacji webowych, co pozwala mi lepiej rozumieć i łączyć wymagania techniczne z biznesowymi."
 }

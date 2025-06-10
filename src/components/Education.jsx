@@ -9,6 +9,8 @@ export const Education = () => {
           <h3>{t("school")}</h3>
           <span>{t("major")}</span>
           <br />
+          <i>{t("spec")}</i>
+          <br />
           <i>{t("time")}</i>
           <br />
           <br />

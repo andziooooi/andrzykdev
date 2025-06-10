@@ -17,6 +17,11 @@ export const Projects = () => {
         desc={t("WordZone.desc")}
         tech={["WPF", "EntityFramework", "SQLite"]}
       />
+      <ProjectCard
+        title="X - RayPalette"
+        desc={t("XRayPalette.desc")}
+        tech={["C#", "ImGuiNet", "MySQL"]}
+      />
     </section>
   );
 };

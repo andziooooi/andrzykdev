@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <div>
       <section className="section">
-        <h2>Technical Skills</h2>
+        <h2>{t("title")}</h2>
         <ul>
           <li>C# / .NET</li>
           <li>ASP.NET Core MVC</li>

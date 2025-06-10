@@ -1,12 +1,13 @@
 {
+  "title": "Umiejętności techniczne",
   "softSkills": {
     "title": "Umiejętności miękkie",
     "list": [
       "Szybko się uczę",
-      "Silna chęć nauki",
-      "Elastyczność",
-      "Rozwiązywanie problemów",
-      "Myślenie krytyczne",
+      "Duże chęci do nauki",
+      "Zdolność do adaptacji",
+      "Zdolność rowiązywania problemów",
+      "Analityczne i krytyczne",
       "Praca zespołowa",
       "Dobre umiejętności interpersonalne"
     ]
