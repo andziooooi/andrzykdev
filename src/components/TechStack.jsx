@@ -1,5 +1,3 @@
 export const TechStack = (props) => (
-  <div>
-    <p>{props.tech}</p>
-  </div>
+  <div className="tech tech-element">{props.tech}</div>
 );

@@ -1,6 +1,6 @@
 export const Nav = (props) => {
   return (
-    <nav className="nav">
+    <nav className="navigation-section">
       <ul>
         {props.articles.map((item, index) => (
           <li key={index}>

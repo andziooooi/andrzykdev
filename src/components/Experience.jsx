@@ -4,9 +4,16 @@ export const Experience = () => {
   return (
     <section className="section">
       <h2>{t("title")}</h2>
-      <h3>{t("company")}</h3>
-      <i>{t("time")}</i>
-      <p>{t("desc")}</p>
+      <div className="card">
+        <div className="eduexp-header">
+          <h3>
+            <strong>{t("position")}</strong>
+          </h3>
+          <i className="time">{t("time")}</i>
+        </div>
+        <span>{t("company")}</span>
+        <p>{t("desc")}</p>
+      </div>
     </section>
   );
 };

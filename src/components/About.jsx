@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className="section">
       <h2>{t("title")}</h2>
-      <p>{t("desc")}</p>
+      <div className="card about">{t("desc")}</div>
     </section>
   );
 };

@@ -5,17 +5,20 @@ export const Education = () => {
     <div>
       <section className="section">
         <h2>{t("title")}</h2>
-        <p>
-          <h3>{t("school")}</h3>
+        <div className="card">
+          <div className="eduexp-header">
+            <h3>
+              <strong>{t("school")}</strong>
+            </h3>
+            <i className="time">{t("time")}</i>
+          </div>
           <span>{t("major")}</span>
           <br />
           <i>{t("spec")}</i>
           <br />
-          <i>{t("time")}</i>
-          <br />
           <br />
           {t("desc")}
-        </p>
+        </div>
       </section>
     </div>
   );
