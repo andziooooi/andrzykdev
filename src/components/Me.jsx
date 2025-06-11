@@ -6,16 +6,14 @@ export const Me = () => {
   const { t } = useTranslation("me");
   return (
     <div className="me-container">
-      <div className="image-wrapper">
+      <div>
         <img src={MyPhoto} className="profile-image" alt="Michał Andrzyk" />
       </div>
 
-      {/* Header z imieniem i nazwiskiem */}
       <header className="name-header">
         <h1 className="name">Michał Andrzyk</h1>
       </header>
 
-      {/* Kontakty w rzędzie */}
       <div className="contact-section">
         <div className="contact-item">
           <span className="contact-icon">📞</span>

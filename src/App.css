@@ -18,7 +18,7 @@ body {
   width: 50%;
   margin-left: 50%;
 }
-.me {
+.left {
   width: 50%;
   position: fixed;
   top: 0;
@@ -259,7 +259,7 @@ body {
     margin-left: 0px;
     width: 100%;
   }
-  .me {
+  .left {
     position: static;
     width: 100%;
   }

@@ -1,7 +1,5 @@
 import "./App.css";
-
 import Projects from "./components/Projects";
-
 import "./i18n";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
@@ -10,6 +8,7 @@ import { Languages } from "./components/Languages";
 import { About } from "./components/About";
 import { Me } from "./components/Me";
 import LanguageSwitcher from "./components/LanguageSwitcher";
+
 function App() {
   return (
     <div className="container">
@@ -17,7 +16,7 @@ function App() {
         <LanguageSwitcher />
       </div>
       <div className="content">
-        <div className="me">
+        <div className="left">
           <Me></Me>
         </div>
         <div className="right">
