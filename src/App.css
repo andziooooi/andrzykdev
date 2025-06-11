@@ -8,6 +8,7 @@ body {
 .container {
   margin: 0;
   background-color: #f0fdf4;
+  padding: 1rem;
 }
 
 .content {
@@ -37,6 +38,7 @@ body {
 }
 .about {
   font-size: 1.2rem;
+  text-align: justify;
 }
 .language-section {
   text-align: end;
@@ -53,6 +55,9 @@ body {
 .section ul {
   list-style-type: disc;
   padding-left: 2rem;
+}
+.section p {
+  text-align: justify;
 }
 
 .eduexp-header {
@@ -104,6 +109,7 @@ body {
 }
 .tech {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 0.5rem;
   margin-right: 1rem;
 }
@@ -253,6 +259,9 @@ body {
     padding: 1rem;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .section {
+    padding: 0.5rem;
   }
   .right {
     margin-left: 0px;

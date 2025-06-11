@@ -15,9 +15,7 @@ export const Education = () => {
           <span>{t("major")}</span>
           <br />
           <i>{t("spec")}</i>
-          <br />
-          <br />
-          {t("desc")}
+          <p>{t("desc")}</p>
         </div>
       </section>
     </div>

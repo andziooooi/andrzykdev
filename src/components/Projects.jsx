@@ -23,6 +23,11 @@ export const Projects = () => {
           desc={t("XRayPalette.desc")}
           tech={["C#", "ImGuiNet", "MySQL"]}
         />
+        <ProjectCard
+          title="Bookers"
+          desc={t("Bookers.desc")}
+          tech={["PHP", "HTML/CSS", "JavaScript", "MySQL"]}
+        />
       </div>
     </section>
   );

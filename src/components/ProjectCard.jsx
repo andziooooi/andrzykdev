@@ -14,7 +14,7 @@ export const ProjectCard = (props) => {
         </h3>
       </div>
       <div className="desc">
-        <span>{props.desc}</span>
+        <p>{props.desc}</p>
       </div>
       <div className="tech">
         {props.tech.map((item, index) => (

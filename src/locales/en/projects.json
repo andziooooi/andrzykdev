@@ -2,5 +2,6 @@
   "title": "Projects",
   "WordZone.desc": "A WPF-based desktop application designed to assist users in learning English. It allows users to create custom word packs, study through quizzes or flashcards, and edit existing packs. The application utilizes SQLite and Entity Framework for data management and follows the MVVM design pattern for maintainability.",
   "MyFinances.desc": "MyFinances is a web application that helps users track their income and expenses in an intuitive and organized way. It provides clear financial summaries with dynamic charts,allowing users to analyze their spending patterns over time. The application supports transaction categorization, making it easier to monitor specific areas of spending. Users can review monthly reports, compare income versus expenses, and gain insights into their financial habits",
-  "XRayPalette.desc": "University team project - a patient and doctor management system equipped with features for converting X-ray images into color images. In the development team, I was responsible for handling images, the Admin view, and bug fixing."
+  "XRayPalette.desc": "University team project - a patient and doctor management system equipped with features for converting X-ray images into color images. In the development team, I was responsible for handling images, the Admin view, and bug fixing.",
+  "Bookers.desc": "A basic web-based book rental service for academic purposes, projects combines database technologies with web service development."
 }
