@@ -17,7 +17,9 @@ export const Me = () => {
       <div className="contact-section">
         <div className="contact-item">
           <span className="contact-icon">📞</span>
-          <span className="contact-text">+48 694 174 533</span>
+          <a href="tel:+48694174533" className="contact-link">
+            +48 694174533
+          </a>
         </div>
 
         <div className="contact-item">

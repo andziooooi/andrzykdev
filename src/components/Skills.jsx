@@ -3,8 +3,8 @@ export const Skills = () => {
   const { t } = useTranslation("skills");
   var skillslist = t("softSkills.list", { returnObjects: true });
   return (
-    <div id="1" className="skills">
-      <section className="section">
+    <div id="1" className="section skills">
+      <div className="skills-div">
         <h2>{t("title")}</h2>
         <ul>
           <li>C# / .NET</li>
@@ -20,16 +20,16 @@ export const Skills = () => {
           <li>GIT</li>
           <li>Visual Studio</li>
         </ul>
-      </section>
+      </div>
 
-      <section className="section">
+      <div className="skills-div">
         <h2>{t("softSkills.title")}</h2>
         <ul>
           {skillslist.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
-      </section>
+      </div>
     </div>
   );
 };
