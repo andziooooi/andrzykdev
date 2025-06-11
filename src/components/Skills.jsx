@@ -3,7 +3,7 @@ export const Skills = () => {
   const { t } = useTranslation("skills");
   var skillslist = t("softSkills.list", { returnObjects: true });
   return (
-    <div className="skills">
+    <div id="1" className="skills">
       <section className="section">
         <h2>{t("title")}</h2>
         <ul>

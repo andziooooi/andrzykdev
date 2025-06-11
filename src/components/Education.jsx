@@ -3,7 +3,7 @@ export const Education = () => {
   const { t } = useTranslation("education");
   return (
     <div>
-      <section className="section">
+      <section id="3" className="section">
         <h2>{t("title")}</h2>
         <div className="card">
           <div className="eduexp-header">

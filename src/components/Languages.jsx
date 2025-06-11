@@ -3,7 +3,7 @@ export const Languages = () => {
   const { t } = useTranslation("languages");
   var languagelist = t("list", { returnObjects: true });
   return (
-    <section className="section">
+    <section id="5" className="section">
       <h2>{t("title")}</h2>
       <ul>
         {languagelist.map((item, index) => (
