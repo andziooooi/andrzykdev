@@ -282,6 +282,12 @@ body {
   .navigation-section {
     display: none;
   }
+  .about {
+    hyphens: auto;
+  }
+  .section p {
+    hyphens: auto;
+  }
 }
 @media (max-width: 550px) {
   .eduexp-header {

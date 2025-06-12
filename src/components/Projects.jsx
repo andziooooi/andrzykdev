@@ -19,7 +19,7 @@ export const Projects = () => {
           tech={["WPF", "EntityFramework", "SQLite"]}
         />
         <ProjectCard
-          title="X - RayPalette"
+          title="X-RayPalette"
           desc={t("XRayPalette.desc")}
           tech={["C#", "ImGuiNet", "MySQL"]}
         />
